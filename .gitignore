@@ -1,0 +1,53 @@
+## .NET / ASP.NET Core
+# Build results
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.swp
+*.swo
+
+# NuGet
+*.nupkg
+*.nuget/
+packages/
+*.lock.json
+!package-lock.json
+
+# Logs
+logs/
+*.log
+*.diagnostic
+
+# Environment & Secrets — NEVER commit these
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+.env
+.env.*
+!.env.example
+
+# User-specific configuration (may contain secrets)
+# appsettings.Development.json contains no secrets by design,
+# but if you fill in ApiKey locally, switch to User Secrets instead.
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Terraform / Infra (if added later)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Docker (if added later)
+docker-compose.override.yml

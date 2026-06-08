@@ -1,0 +1,6 @@
+@LongPd.SemanticAgent_HostAddress = http://localhost:5123
+
+GET {{LongPd.SemanticAgent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
